@@ -1,0 +1,72 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  background-color: pink;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+.description {
+  margin: 20px 0px;
+}
+p {
+  font-size: 1.5rem;
+}
+
+input, textarea {
+  width: 150px;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid grey;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: aliceblue;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(19, 19, 136);
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: auto;
+}
+
+#output {
+  line-height: 2.8rem;
+  padding: 10px 0px;
+}
